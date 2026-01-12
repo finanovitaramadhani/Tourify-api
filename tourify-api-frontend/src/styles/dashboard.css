@@ -1,0 +1,81 @@
+.dashboard {
+  padding: 60px;
+  color: #e5e7eb;
+}
+
+.dashboard h1 {
+  font-size: 36px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+/* API SECTION */
+.api-section {
+  background: rgba(15, 23, 42, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header button {
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.api-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #020617;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #1e293b;
+}
+
+.key-text {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.api-card button {
+  background: #020617;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.empty {
+  margin-top: 20px;
+  color: #94a3b8;
+}
+
+/* USAGE */
+.usage {
+  background: rgba(15, 23, 42, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.usage pre {
+  background: #020617;
+  padding: 20px;
+  border-radius: 8px;
+  color: #38bdf8;
+  overflow-x: auto;
+}
